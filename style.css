@@ -1,10 +1,11 @@
 html{
     height: 100%;
+   
+}
+body {
     background-image: url(istockphoto-1206505233-612x612.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     text-align: center;
@@ -14,9 +15,34 @@ body {
 
 h1 {
     color: goldenrod;
-    margin-top: 3.2em;
+    margin-top: 1em;
 }
 
 #message-el {
     font-style: italic;
 }
+
+/* 
+3. Style the button according to the provided design
+text color - #016f32
+width      - 150px
+background - goldenrod
+ */
+
+ button {
+    color: #016f32;
+    width: 300px;
+    background: goldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    font-size: 30px;
+    margin-bottom: 9px;
+ }
+ button:hover {
+    background-color:rgb(145, 110, 22);
+    color: #028a3f;
+    cursor: pointer;
+ }
